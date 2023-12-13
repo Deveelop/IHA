@@ -26,7 +26,7 @@ const Footer = () => {
           <div className=' md:justify-center grid space-y-6'>
           <h1 className=" font-Athiti"> What We Do </h1>
             
-              <p> Mentorship program </p>
+              <p className=' cursor-pointer'> Mentorship program </p>
               <p> Meet Our Teams </p>
               <p> Mentors </p>
               <p> Mentees </p>
