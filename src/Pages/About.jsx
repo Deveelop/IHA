@@ -2,7 +2,25 @@
 
 const About = () => {
   return (
-    <div className="bg-[#f7ecaf]" id="about">
+   <>
+    <div className='font-Athiti mt-40'>
+      
+      <div className=' bg-[url("/groupy.png")] h-2/3 w-full bg-cover
+       bg-center p-4 md:p-72 relative
+       '>
+       <div className=' flex justify-center'>
+         <div className=' grid gap-3 text-center'>
+       <h1 className='text-white text-xl md:text-6xl'>Inspire Her Afrika</h1>
+       <p className='text-white  text-sm '>Mentorship Support Growth</p>
+       <div className=''>
+       <button className='bg-text-white font-semibold bg-white p-3 w-32 rounded-xl' >About Us</button>
+       </div>
+       </div>
+       </div>
+       </div>
+   </div>
+
+    <div className="bg-[#f7ecaf] text-[#36200F]" id="about">
     <div className="grid md:grid-cols-1 grid-cols-1 col-span-3 md:col-span-1 py-2">
      <div className=" md:justify-center grid space-y-6 text-center p-4">
         <h1 className="font-Athiti text-4xl underline">Who we are</h1>
@@ -31,6 +49,7 @@ const About = () => {
      <h1 className="font-Athiti text-4xl underline">Meet Our Leaders</h1>
     </div>
     </div>
+    </>
   )
 }
 
