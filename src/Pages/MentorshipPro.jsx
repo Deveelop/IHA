@@ -1,4 +1,4 @@
-import React from 'react'
+import { FirstCohortMentors } from "../Components/firstcohortmentors"
 
 const MentorshipPro = () => {
   return (
@@ -49,8 +49,14 @@ const MentorshipPro = () => {
     <div>
         <div>
             <h1>First Cohort Mentors</h1>
-            <div>
-                
+            <div className=" bg-[#ECDFD5] border-t-8 border-t-[#EB643F] rounded-md">
+                <div className="">
+                  <img src="/Polygon 1.png" alt="altview"/>
+                  <span>
+                    <h1 className=" font-Athiti">Dinatus Emmanuel Ishaku</h1>
+                    <p>Research Associate Helpman Development Institute</p>
+                  </span>
+                </div>
             </div>
         </div>
     </div>
