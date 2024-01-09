@@ -16,11 +16,11 @@ const Header = () => {
             <Link to='/' className=' p-0 px-5  cursor-pointer focus:text-white focus:underline transition ease-in-out duration-500'>Home</Link>
             <Link to='/about' id='about'  className=' p-0 px-5 focus:text-white cursor-pointer focus:underline transition ease-in-out duration-500'>About</Link>
             <Link to='/mentorship-program'  className=' p-0 px-5 focus:text-white cursor-pointer focus:underline transition ease-in-out duration-500'>Mentorship Programs</Link>
-            <Link to='/resources'  className=' p-0 px-5 focus:text-white cursor-pointer focus:underline transition ease-in-out duration-500'>Reasources</Link>
-            <Link to='/media'  className=' p-0 px-5 focus:text-white cursor-pointer focus:underline transition ease-in-out duration-500'>Media</Link>
-            <Link to='/blog'  className=' p-0 px-5 focus:text-white cursor-pointer focus:underline transition ease-in-out duration-500'>Blog</Link>
-            <Link to='/get-involved'  className=' p-0 px-5 focus:text-white cursor-pointer focus:underline transition ease-in-out duration-500'>Get Involved</Link>
-            <Link to='/contact'  className=' p-0 px-5 focus:text-white cursor-pointer focus:underline transition ease-in-out duration-500'>Contact Us</Link>
+            <Link to='/#'  className=' p-0 px-5 focus:text-white cursor-pointer focus:underline transition ease-in-out duration-500'>Reasources</Link>
+            <Link to='/#'  className=' p-0 px-5 focus:text-white cursor-pointer focus:underline transition ease-in-out duration-500'>Media</Link>
+            <Link to='/#'  className=' p-0 px-5 focus:text-white cursor-pointer focus:underline transition ease-in-out duration-500'>Blog</Link>
+            <Link to='/#'  className=' p-0 px-5 focus:text-white cursor-pointer focus:underline transition ease-in-out duration-500'>Get Involved</Link>
+            <Link to='/#'  className=' p-0 px-5 focus:text-white cursor-pointer focus:underline transition ease-in-out duration-500'>Contact Us</Link>
           </ul>
         </div>
       </header>
