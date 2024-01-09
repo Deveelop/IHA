@@ -2,10 +2,11 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <>
-    <div className='font-Athiti mt-40'>
+    
+    
+    <div className='font-Athiti '>
       
-       <div className=' bg-[url("/groupy.png")] h-2/3 w-full bg-cover
+       <div className=' mt-20 md:mt-40 bg-[url("/groupy.png")] h-2/3 w-full bg-cover
         bg-center p-4 md:p-72 relative
         '>
         <div className=' flex justify-center'>
@@ -19,7 +20,7 @@ const Home = () => {
         </div>
         </div>
     </div>
-    </>
+   
   )
 } 
 
